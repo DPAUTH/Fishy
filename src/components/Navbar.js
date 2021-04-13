@@ -26,7 +26,7 @@ function Navbar() {
 
   return (
     <>
-      <nav className="navbar">
+      <nav className="navbar" >
         <div className="navbar-container">
           <Link to="/" className="navbar-logo" onClick={closeMobileMenu}>
             Fishy
@@ -36,26 +36,35 @@ function Navbar() {
           </div>
           <ul className={click ? "nav-menu active" : "nav-menu"}>
             <li className="nav-item">
-              <Link to="/" className="nav-links" onClick={closeMobileMenu}>
-                Home
+              <Link to="/causes" className="nav-links" onClick={closeMobileMenu}>
+                Causes
               </Link>
             </li>
             <li className="nav-item">
               <Link
-                to="/services"
+                to="/effects"
                 className="nav-links"
                 onClick={closeMobileMenu}
               >
-                Services
+                Effects
               </Link>
             </li>
             <li className="nav-item">
               <Link
-                to="/products"
+                to="/solutions"
                 className="nav-links"
                 onClick={closeMobileMenu}
               >
-                Products
+                Solutions
+              </Link>
+            </li>
+            <li className="nav-item">
+              <Link
+                to="/fish-index"
+                className="nav-links"
+                onClick={closeMobileMenu}
+              >
+                Fish-Index
               </Link>
             </li>
             <li className="nav-item">
