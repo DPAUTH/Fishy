@@ -63,9 +63,6 @@
   display: flex;
   justify-content: center;
 }
-.footer-link-wrapper {
-  display: flex;
-}
 .footer-link-items {
   display: flex;
   flex-direction: column;
@@ -140,6 +137,9 @@
   .footer-links {
     padding-top: 2rem;
   }
+  .footer-link-items{
+    flex-direction: column;
+  }
   
   .footer-input {
     width: 100%;
@@ -149,9 +149,6 @@
     width: 100%;
   }
   
-  .footer-link-wrapper {
-    flex-direction: column;
-  }
   
   .social-media-wrap {
     flex-direction: column;
