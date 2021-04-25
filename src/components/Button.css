@@ -34,10 +34,11 @@
     font-size: 20px;
   }
   
-  .btn--medium:hover,
+  /*.btn--medium:hover,
   .btn--large:hover {
     background: #fff;
     color: #242424;
-    transition: all 0.3s ease-out;
-  }
+    transition: all 0.3s ease-out;*/
+ 
+  
   
