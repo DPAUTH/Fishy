@@ -9,12 +9,11 @@ console.log(bubble);
 
 function HeroSection() {
     return (
-     <div className='hero-container'>{/*είναι η βασική κλάση*/}  
-        {/*<video src='placeholder' autoPlay loop muted /> -->όταν βρούμε βίντεο για background*/}
+     <div className='hero-container'>{/*the main class*/}  
         <h1>SEA LIFE IS IN DANGER</h1>
         <p>PROTECT OUR SEAS</p> 
         <div className='hero-btns'>
-        {/*κληρονωμεί την συνάρτηση Button*/}
+        {/*class Button*/}
         
         <Link to="/sign-up">
           <Button  
@@ -37,11 +36,11 @@ function HeroSection() {
             
           >        
             Watch     
-            <i className='far fa-play-circle'/> {/*Η κλάση αυτή δείχνει */}
+            <i className='far fa-play-circle'/>
           </Button>
           </a>
         </div>
-         <div class="animated-bubbles">{/*η κλάση με την οποία γίνεται το animation με τις φυσαλίδες*/}
+         <div class="animated-bubbles">{/*This class does the bubble animations*/}
            <img src={bubble} alt="bubble"/>
            <img src={bubble} alt="bubble"/>
            <img src={bubble} alt="bubble"/>
