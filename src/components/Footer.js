@@ -8,88 +8,91 @@ function Footer() {
     return (
         <div className = 'footer-container'>
              <div className="footer-links">
-                {/*Short paragraph about our team */}
-                <div className= 'footer-link-items'>
-                    <h2>About us</h2> 
-                    <p>We are a student project from the Aristotle University of
-                    Greece. Our mission is to spread awareness on overfishing and its 
-                    impact on the environment. </p>
-                </div>
-                <div className= 'footer-link-items'>
-                    {/*A map to all the pages on our website*/}
-                    <h2>Sitemap</h2>
-                    <div className= 'footer-button-wrap'>
-                        <div className= 'footer-buttons'>
-                            <Link to='/'>
-                                <Button
-                                    className='btns'
-                                    buttoonStyle='btn--outline'
-                                    buttonSize='btn--medium'>Home 
-                                </Button>
-                            </Link>
-                            <Link to='/causes'>
-                                <Button
-                                    className='btns'
-                                    buttoonStyle='btn--outline'
-                                    buttonSize='btn--medium'>Causes
-                                </Button>
-                            </Link>
-                            <Link to='/effects'>
-                                <Button
-                                    className='btns'
-                                    buttoonStyle='btn--outline'
-                                    buttonSize='btn--medium'>Effects
-                                </Button>
-                            </Link>
-                            <Link to='/solutions'>
-                                <Button
-                                    className='btns'
-                                    buttoonStyle='btn--outline'
-                                    buttonSize='btn--medium'>Solutions
-                                </Button>
-                            </Link>
-                            
-                        </div>
+                <div className="footer-link-wrapper">
+                    {/*Short paragraph about our team */}
+                    <div className= 'footer-link-items'>
+                        <h2>About us</h2> 
+                        <p>We are a student project from the Aristotle University of
+                        Greece. Our mission is to spread awareness on overfishing and its 
+                        impact on the environment. </p>
                     </div>
-                       
                 </div>
-                {/*this second class of buttons is so they show up in two columns */}
-                <div className= 'footer-link-items'>
-                    {/*blank header so the buttons align */}
-                    <h1>­</h1>
-                    <div className= 'footer-buttons'>
-                        <Link to='/fish-index'>
-                            <Button
-                                className='btns'
-                                buttoonStyle='btn--outline'
-                                buttonSize='btn--medium'>Fish-Index
-                            </Button>
-                        </Link>
-                        <Link to='/contact-form'>
-                            <Button
-                                className='btns'
-                                buttoonStyle='btn--outline'
-                                buttonSize='btn--medium'>Contact Form
-                            </Button>
-                        </Link>
-                        <Link to='/about-us'>
-                            <Button
-                                className='btns'
-                                buttoonStyle='btn--outline'
-                                buttonSize='btn--medium'>About us
-                            </Button>
-                        </Link>
-                        <Link to='/sign-up'>
-                            <Button
-                                className='btns'
-                                buttoonStyle='btn--outline'
-                                buttonSize='btn--medium'>Sign up
-                            </Button>
-                        </Link>
-                    </div>         
+                <div className="footer-link-wrapper">
+                    <div className= 'footer-link-items'>
+                        {/*A map to all the pages on our website*/}
+                        <h2>Sitemap</h2>
+                        <div className= 'footer-button-wrap'>
+                            <div className= 'footer-buttons'>
+                                <Link to='/'>
+                                    <Button
+                                        className='btns'
+                                        buttoonStyle='btn--outline'
+                                        buttonSize='btn--medium'>Home 
+                                    </Button>
+                                </Link>
+                                <Link to='/causes'>
+                                    <Button
+                                        className='btns'
+                                        buttoonStyle='btn--outline'
+                                        buttonSize='btn--medium'>Causes
+                                    </Button>
+                                </Link>
+                                <Link to='/effects'>
+                                    <Button
+                                        className='btns'
+                                        buttoonStyle='btn--outline'
+                                        buttonSize='btn--medium'>Effects
+                                    </Button>
+                                </Link>
+                                <Link to='/solutions'>
+                                    <Button
+                                        className='btns'
+                                        buttoonStyle='btn--outline'
+                                        buttonSize='btn--medium'>Solutions
+                                    </Button>
+                                </Link>
+                            </div>
+                        </div> 
+                    </div>
+                    {/*this second class of buttons is so they show up in two columns */}
+                    <div className= 'footer-link-items'>
+                        {/*blank header so the buttons align */}
+                        <h1>­</h1>
+                        <div className= 'footer-buttons'>
+                            <Link to='/fish-index'>
+                                <Button
+                                    className='btns'
+                                    buttoonStyle='btn--outline'
+                                    buttonSize='btn--medium'>Fish-Index
+                                </Button>
+                            </Link>
+                            <Link to='/contact-form'>
+                                <Button
+                                    className='btns'
+                                    buttoonStyle='btn--outline'
+                                    buttonSize='btn--medium'>Contact Form
+                                </Button>
+                            </Link>
+                            <Link to='/about-us'>
+                                <Button
+                                    className='btns'
+                                    buttoonStyle='btn--outline'
+                                    buttonSize='btn--medium'>About us
+                                </Button>
+                            </Link>
+                            <Link to='/sign-up'>
+                                <Button
+                                    className='btns'
+                                    buttoonStyle='btn--outline'
+                                    buttonSize='btn--medium'>Sign up
+                                </Button>
+                            </Link>
+                        </div>         
+                    </div>
                 </div>
-                {/*Subscription to the websites newsletter*/}
-                <div className= 'footer-sub'>
+                <div className="footer-link-wrapper">
+                    {/*Subscription to the websites newsletter*/}
+                    <div className= 'footer-sub'>
                         <h2 className='footer-sub-heading'>
                             Join our Newsletter
                         </h2>
@@ -111,14 +114,16 @@ function Footer() {
                                 </div>
                             </form>
                         </div>
+                    </div>
+                    <div className= 'footer-link-items'>
+                        {/*contact information links */}
+                        <h2>Contact us</h2>
+                        <a href='https://goo.gl/maps/Gweuqs6mKni2UHod8'>Address: Aristotle University Faculty of Sciences</a>
+                        <a href='mailto: fishyproject.auth@gmail.com'>Email: fishyproject.auth@gmail.com</a>
+                        <Link to='/contact-form'>Contact Form</Link>
+                    </div>  
                 </div>
-                <div className= 'footer-link-items'>
-                    {/*contact information links */}
-                    <h2>Contact us</h2>
-                    <a href='https://goo.gl/maps/Gweuqs6mKni2UHod8'>Address: Aristotle University Faculty of Sciences</a>
-                    <a href='mailto: fishyproject.auth@gmail.com'>Email: fishyproject.auth@gmail.com</a>
-                    <Link to='/contact-form'>Contact Form</Link>
-                </div>        
+                      
             </div>
             {/*logo, copyright, and social media icons */}
             <section class='social-media'>
@@ -172,4 +177,6 @@ function Footer() {
 }
 
 export default Footer;
+
+
 
