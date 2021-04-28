@@ -34,15 +34,7 @@ function Navbar() {
         <div className="navbar-container">
           <Link to="/" className="navbar-logo" onClick={closeMobileMenu}>
           <div class='footer-logo'>
-                            <img
-                                src={fishylogoblue}
-                                alt="logo"
-                                style={{
-                                  width: 80,
-                                  height: 60
-               
-                                }}
-                             />
+                    Fishy
                     </div>
           </Link>
           
