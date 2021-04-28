@@ -6,7 +6,7 @@ export const effectObjOne = {
     description:"Marine life is in severe danger due to overfishing. Natural reproduction cannot compensate for the tons of fish species that are being removed. The prolonged and widespread disturbance of ecosystems creates an imbalance that affects fishes as well as other species like sea birds, marine mammals and corals.",
     imgStart:'',
     img: 'Images/fish-market.jpg',
-    alt: 'image of '
+    alt: 'image of a fish market'
 }
 
 export const effectObjTwo = {

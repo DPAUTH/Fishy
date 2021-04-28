@@ -18,10 +18,10 @@ export function Effects(){
         <EffectsInfo {...effectObjThree}/>
         <EffectsInfo {...effectObjFour}/>
         <div className='Ε-Sources'>
-            <h3>Sources:</h3>
-            <a href="https://unctad.org/project/regulating-fisheries-subsidies " target="blank">https://unctad.org/project/regulating-fisheries-subsidies </a>
+            <h3 style={{color: "white"}}>Sources:</h3>
+            <a style={{color: "white"}} href="https://unctad.org/project/regulating-fisheries-subsidies " target="blank">https://unctad.org/project/regulating-fisheries-subsidies </a>
             <br/>
-            <a href="https://www.worldwildlife.org/threats/overfishing/" target="blank">https://www.worldwildlife.org/threats/overfishing </a>
+            <a  style={{color: "white"}} href="https://www.worldwildlife.org/threats/overfishing/" target="blank">https://www.worldwildlife.org/threats/overfishing </a>
         </div>
         <Footer/>
         </>
