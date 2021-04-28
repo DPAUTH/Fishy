@@ -6,7 +6,7 @@ export const solutionObjOne = {
     description:"Designing and enforcing strict fishing regulations can reduce illegal fishing while also ensuring that organized fishing is carried out with environmentally friendly procedures and methods.",
     imgStart:'',
     img: 'Images/Regulations.jpg',
-    alt: 'page with a fish market'
+    alt: 'picture of a stamp'
 }
 
 export const solutionObjTwo = {

@@ -8,7 +8,6 @@ import Causes from './components/pages/Causes';
 import Effects from './components/pages/Effects';
 import Solutions from './components/pages/Solutions';
 import FishIndexSlider from './components/pages/FishIndexSlider';
-
 // import SignUp from './components/pages/SignUp';  Not added yet will be added in 2nd part for users
 
 

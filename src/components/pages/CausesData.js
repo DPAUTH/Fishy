@@ -6,7 +6,7 @@ export const causeObjOne = {
     description:"Poor fishing management can be considered as a primary reason of overfishing. The practice of capturing unwanted sea life while fishing for a different species is especially harmful because it endangers other species, such as sea turtles, or cetaceans along with fish.",
     imgStart:'',
     img: 'Images/turtle.jpg',
-    alt: 'sea turtle stuck o'
+    alt: 'sea turtle stuck on a net'
 }
 
 export const causeObjTwo = {

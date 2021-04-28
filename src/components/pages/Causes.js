@@ -18,10 +18,10 @@ export function Causes(){
         <CausesInfo {...causeObjThree}/>
         <CausesInfo {...causeObjFour}/>
         <div className='C-Sources'>
-            <h3>Sources:</h3>
-            <a href="https://www.edf.org/oceans/overfishing-most-serious-threat-our-oceans" target="blank">https://www.edf.org/oceans/overfishing-most-serious-threat-our-oceans </a>
+            <h3 style={{color: "white"}}>Sources:</h3>
+            <a style={{color: "white"}} href="https://www.edf.org/oceans/overfishing-most-serious-threat-our-oceans" target="blank">https://www.edf.org/oceans/overfishing-most-serious-threat-our-oceans </a>
             <br/>
-            <a href="https://www.oecd.org/agriculture/government-subsidies-overfishing/" target="blank">https://www.oecd.org/agriculture/government-subsidies-overfishing/ </a>
+            <a style={{color: "white"}} href="https://www.oecd.org/agriculture/government-subsidies-overfishing/" target="blank">https://www.oecd.org/agriculture/government-subsidies-overfishing/ </a>
         </div>
         <Footer />
        </>

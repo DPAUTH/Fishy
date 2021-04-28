@@ -19,8 +19,8 @@ export function Solutions(){
         <SolutionsInfo {...solutionObjFour}/>
 
         <div className='S-Sources'>
-            <h3>Sources:</h3>
-            <a href="https://www.edf.org/oceans/how-turn-around-overfishing-crisis" target="blank">https://www.edf.org/oceans/how-turn-around-overfishing-crisis</a>
+            <h3 style={{color: "white"}}>Sources:</h3>
+            <a style={{color: "white"}} href="https://www.edf.org/oceans/how-turn-around-overfishing-crisis" target="blank">https://www.edf.org/oceans/how-turn-around-overfishing-crisis</a>
         </div>    
         <Footer/>
         </>

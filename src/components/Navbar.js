@@ -2,6 +2,10 @@ import React, { useState, useEffect } from "react";
 import { Button } from "./Button";
 import { Link } from "react-router-dom";
 import "./Navbar.css";
+import fishylogoblue from '../images/fishylogoblue.png';
+
+
+
 
 function Navbar() {
   const [click, setClick] = useState(false);
@@ -29,8 +33,19 @@ function Navbar() {
       <nav className="navbar" >
         <div className="navbar-container">
           <Link to="/" className="navbar-logo" onClick={closeMobileMenu}>
-            Fishy
+          <div class='footer-logo'>
+                            <img
+                                src={fishylogoblue}
+                                alt="logo"
+                                style={{
+                                  width: 80,
+                                  height: 60
+               
+                                }}
+                             />
+                    </div>
           </Link>
+          
           <div className="menu-icon" onClick={handleClick}>
             <i className={click ? "fas fa-times" : "fas fa-bars"} />
           </div>
