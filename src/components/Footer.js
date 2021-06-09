@@ -49,6 +49,13 @@ function Footer() {
                                         buttonSize='btn--medium'>Solutions
                                     </Button>
                                 </Link>
+                                <Link to='/feed'>
+                                    <Button
+                                        className='btns'
+                                        buttoonStyle='btn--outline'
+                                        buttonSize='btn--medium'>Feed
+                                    </Button>
+                                </Link>
                             </div>
                             {/*this second class of buttons is so they show up in two columns */}
                             <div className= 'footer-buttons'>
@@ -64,13 +71,6 @@ function Footer() {
                                         className='btns'
                                         buttoonStyle='btn--outline'
                                         buttonSize='btn--medium'>Contact Form
-                                    </Button>
-                                </Link>
-                                <Link to='/about-us'>
-                                    <Button
-                                        className='btns'
-                                        buttoonStyle='btn--outline'
-                                        buttonSize='btn--medium'>About us
                                     </Button>
                                 </Link>
                                 <Link to='/sign-up'>

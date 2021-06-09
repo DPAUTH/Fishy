@@ -9,6 +9,7 @@ import Effects from './components/pages/Effects';
 import Solutions from './components/pages/Solutions';
 import FishIndexSlider from './components/pages/FishIndexSlider';
 import ContactForm from "./components/pages/ContactForm";
+import Feed from "./components/pages/Feed";
 // import SignUp from './components/pages/SignUp';  Not added yet will be added in 2nd part for users
 
 
@@ -28,6 +29,7 @@ function App() {
             <Route path="/solutions" exact component= {Solutions} />
             <Route path="/fish-index" exact component= {FishIndexSlider} />
             <Route path="/contact-form" exact component= {ContactForm} />
+            <Route path="/feed" exact component= {Feed} />
           </Switch>
           </ScrollToTop>
         </Router>
