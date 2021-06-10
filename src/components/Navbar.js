@@ -33,9 +33,17 @@ function Navbar() {
       <nav className="navbar" >
         <div className="navbar-container">
           <Link to="/" className="navbar-logo" onClick={closeMobileMenu}>
-          <div class='footer-logo'>
-                    Fishy
-                    </div>
+            <div class='fishy-logo'>
+              <img
+                src={fishylogoblue}
+                alt="logo"
+                style={{
+                  width:100,
+                  
+                  marginTop: -7
+                }}
+              />
+            </div>
           </Link>
           
           <div className="menu-icon" onClick={handleClick}>
