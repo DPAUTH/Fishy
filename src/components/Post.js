@@ -6,16 +6,24 @@ import {Favorite} from "@material-ui/icons"
 import {Checkbox} from "@material-ui/core"
 import {FormControlLabel} from "@material-ui/core"
 import { Button } from './Button'
+import { useState } from 'react'
 
 
-export default function post() {
+export default function Post() {
+    const [open, setOpen] = useState(false);
     return (
         <div className="post">
             <div className="postWrapper">
                 <div className="postTop">
                     <span className="postUsername">Username</span>
-                    <Button className="postOptions">
+                    <Button className="postOptions" onClick={() => setOpen(!open)}>
                         <MoreVert />
+                        <div className ="dropDownMenu">
+                            {open && <Button className="dropDown">
+                                Edit post
+                            </Button>}
+                        </div>
+                        
                     </Button>
                 </div>
                 <div className="postMid">
