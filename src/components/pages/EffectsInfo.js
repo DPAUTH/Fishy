@@ -8,7 +8,7 @@ function EffectsInfo({
     return(
         <>
         <div className={lightBg? 'effects_section' : 'effects_section darkBg'}>
-            <div className='container'>
+            <div className='E-container'>
                 <div className='e-row effects_row'
                     style={{display:'flex', flexDirection: imgStart === 'start' ? 'row-reverse' : 'row'}}>
                   <div className='col'>
