@@ -8,7 +8,7 @@ function SolutionsInfo({
     return(
         <>
         <div className={lightBg? 'solutions_section' : 'solutions_section darkBg'}>
-            <div className='container'>
+            <div className='S-container'>
                 <div className='s-row solutions_row'
                     style={{display:'flex', flexDirection: imgStart === 'start' ? 'row-reverse' : 'row'}}>
                   <div className='col'>

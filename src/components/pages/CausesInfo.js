@@ -8,7 +8,7 @@ function CausesInfo({
     return(
         <>
         <div className={lightBg? 'causes_section' : 'causes_section darkBg'}>
-            <div className='container'>
+            <div className='C-container'>
                 <div className='row causes_row'
                     style={{display:'flex', flexDirection: imgStart === 'start' ? 'row-reverse' : 'row'}}>
                   <div className='col'>
